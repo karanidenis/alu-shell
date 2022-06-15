@@ -2,5 +2,6 @@
 # display Best School 10 times.
 for i in {1..10};
 do
-	echo $i Best School
+	i="Best School"
+	echo "$i" 
 done
