@@ -5,8 +5,8 @@
 # Displays 'Y U no love me?!' when receiving a SIGINT signal
 # Deletes the file /var/run/holbertonscript.pid and terminates itself when receiving a SIGQUIT or SIGTERM signal
 
-sudo touch /var/run/holbertonscript.pid
-sudo bash -c 'echo $$ > /var/run/holbertonscript.pid'
+touch /var/run/holbertonscript.pid
+bash -c 'echo $$ > /var/run/holbertonscript.pid'
 while true
 do
     echo "To infinity and beyond"
